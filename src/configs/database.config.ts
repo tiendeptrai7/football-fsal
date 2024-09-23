@@ -3,11 +3,10 @@ import 'dotenv/config';
 import { registerAs } from '@nestjs/config';
 import { join } from 'path';
 import { DataSource, DataSourceOptions } from 'typeorm';
-import { url } from 'inspector';
 
 const options = {
   type: 'postgres',
-  url: 'postgresql://football_fsal_dev_user:VUO6h4MhDMiPhJbZfdft7g8VZzl7WpVs@dpg-crognl1u0jms73c9535g-a.oregon-postgres.render.com/football_fsal_dev',
+  url: process.env.DATABASE_URL,
   synchronize: process.env.DATABASE_SYNC === 'true' ?? false,
   logging: process.env.DATABASE_DEBUG === 'true' ?? false,
   entities: [

@@ -15,7 +15,13 @@ import { CacheService } from './services/cache.service';
       useFactory: async (configService: ConfigService) => {
         return {
           store: await redisStore({
-            url: 'rediss://red-crohjld6l47c73fnoorg:z3kvVhGLicgaxE8UZLNlrfArZmKAdMp0@oregon-redis.render.com:6379',
+            socket: {
+              host: configService.get('cache.redisHost'),
+              port: +configService.get('cache.redisPort'),
+              tls: true,
+            },
+            username: configService.get('cache.redisUsername'), // Thêm tên người dùng
+            password: configService.get('cache.redisPassword'),
           }),
           ttl: +configService.get('cache.redisTTL'),
         } as CacheModuleAsyncOptions;
@@ -26,9 +32,13 @@ import { CacheService } from './services/cache.service';
       useFactory: async (configService: ConfigService) => {
         return {
           config: {
-            url: 'rediss://red-crohjld6l47c73fnoorg:z3kvVhGLicgaxE8UZLNlrfArZmKAdMp0@oregon-redis.render.com:6379',
+            host: configService.get('cache.redisHost'),
+            port: +configService.get('cache.redisPort'),
+            username: configService.get('cache.redisUsername'),
+            password: configService.get('cache.redisPassword'),
+            tls: true,
           },
-        } as RedisModuleOptions;
+        } as unknown as RedisModuleOptions;
       },
     }),
   ],
