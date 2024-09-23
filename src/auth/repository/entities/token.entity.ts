@@ -14,7 +14,7 @@ export class Token extends BaseEntity {
   access_token: string;
 
   @Column({
-    type: 'datetime',
+    type: 'timestamp',
     nullable: false,
     default: () => 'CURRENT_TIMESTAMP',
   })
@@ -24,7 +24,7 @@ export class Token extends BaseEntity {
   refresh_token: string;
 
   @Column({
-    type: 'datetime',
+    type: 'timestamp',
     nullable: false,
     default: () => 'CURRENT_TIMESTAMP',
   })

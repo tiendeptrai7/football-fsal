@@ -39,7 +39,7 @@ export class System extends BaseEntity {
   })
   value: string;
 
-  @Column({ type: 'tinyint', default: ESystemType.text })
+  @Column({ type: 'smallint', default: ESystemType.text })
   @ApiProperty()
   unit: ESystemType;
 
@@ -47,11 +47,11 @@ export class System extends BaseEntity {
   @ApiProperty()
   group: string;
 
-  @Column({ type: 'tinyint', default: EStatus.active })
+  @Column({ type: 'smallint', default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   status: EStatus;
 
-  @Column({ type: 'tinyint', default: EStatus.active })
+  @Column({ type: 'smallint', default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   is_public: EStatus;
 }

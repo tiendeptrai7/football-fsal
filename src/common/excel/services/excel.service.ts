@@ -1,5 +1,5 @@
 import { AnyDict, StringArrDict, StringDict } from '@app/types/app.type';
-import { AzureStorageService } from '@common/azure-storage/services/azure-storage.service';
+// import { AzureStorageService } from '@common/azure-storage/services/azure-storage.service';
 import CustomError from '@common/error/exceptions/custom-error.exception';
 import {
   ExcelAsyncValidData,
@@ -28,37 +28,37 @@ export class ExcelService {
   private validateMessage: MessageService;
   constructor(
     // private readonly s3Service: S3Service,
-    private readonly azureStorageService: AzureStorageService,
+    // private readonly azureStorageService: AzureStorageService,
     i18nService: I18nService,
   ) {
     this.excelMessage = new MessageService(i18nService, 'excel');
     this.validateMessage = new MessageService(i18nService, 'validate');
   }
 
-  async getWorkSheet(
-    key: string,
-    validHeaders: StringDict,
-  ): Promise<Worksheet> {
-    const stream = await this.azureStorageService.getFile(key);
-    const workbook = new Excel.Workbook();
-    await workbook.xlsx.load(stream.buffer);
+  // async getWorkSheet(
+  //   key: string,
+  //   validHeaders: StringDict,
+  // ): Promise<Worksheet> {
+  //   const stream = await this.azureStorageService.getFile(key);
+  //   const workbook = new Excel.Workbook();
+  //   await workbook.xlsx.load(stream.buffer);
 
-    const worksheet = workbook.getWorksheet(1);
+  //   const worksheet = workbook.getWorksheet(1);
 
-    if (!worksheet) {
-      throw new CustomError(
-        400,
-        'EXCEL_BAD_REQUEST',
-        this.excelMessage.get('WORKSHEET_NOT_FOUND'),
-      );
-    }
+  //   if (!worksheet) {
+  //     throw new CustomError(
+  //       400,
+  //       'EXCEL_BAD_REQUEST',
+  //       this.excelMessage.get('WORKSHEET_NOT_FOUND'),
+  //     );
+  //   }
 
-    const headers = this.getExcelHeaders(worksheet);
+  //   const headers = this.getExcelHeaders(worksheet);
 
-    this.validateExcelHeader(headers, Object.values(validHeaders));
+  //   this.validateExcelHeader(headers, Object.values(validHeaders));
 
-    return worksheet;
-  }
+  //   return worksheet;
+  // }
 
   validateExcelHeader(header: string[], validHeader: string[]): void {
     if (
@@ -198,16 +198,16 @@ export class ExcelService {
     return workbook;
   }
 
-  async uploadWorkBookToS3(workbook: Workbook, name?: string): Promise<string> {
-    const buffer = await workbook.xlsx.writeBuffer();
+  // async uploadWorkBookToS3(workbook: Workbook, name?: string): Promise<string> {
+  //   const buffer = await workbook.xlsx.writeBuffer();
 
-    const file = new Blob([buffer]);
+  //   const file = new Blob([buffer]);
 
-    return this.azureStorageService.uploadFile(
-      file,
-      `${Date.now()}_export_${name ?? workbook.getWorksheet(1).name}.xlsx`,
-    );
-  }
+  //   return this.azureStorageService.uploadFile(
+  //     file,
+  //     `${Date.now()}_export_${name ?? workbook.getWorksheet(1).name}.xlsx`,
+  //   );
+  // }
 
   streamWorkBookToResponse(workbook: Workbook, res: Response): void {
     res.setHeader('Content-Type', 'application/vnd.ms-excel');

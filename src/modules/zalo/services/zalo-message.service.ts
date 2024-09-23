@@ -43,53 +43,53 @@ export class ZaloMessageService {
     );
   }
 
-  async export(params: FilterZaloMessageDto): Promise<ExportResponse> {
-    const header: StringDict = {
-      sent_time: 'Sent time', // timestamp
-      from_id: 'Zalo ID',
-      from_display_name: 'Zalo Name',
-      activities: 'Activities', // base on from id to get this status
-      to_display_name: 'Reply Zalo',
-      message_type: 'Messages type', // from event_name
-      message: 'Message',
-      initial: 'Initial',
-      observer_name: 'Observer',
-    };
+  // async export(params: FilterZaloMessageDto): Promise<ExportResponse> {
+  //   const header: StringDict = {
+  //     sent_time: 'Sent time', // timestamp
+  //     from_id: 'Zalo ID',
+  //     from_display_name: 'Zalo Name',
+  //     activities: 'Activities', // base on from id to get this status
+  //     to_display_name: 'Reply Zalo',
+  //     message_type: 'Messages type', // from event_name
+  //     message: 'Message',
+  //     initial: 'Initial',
+  //     observer_name: 'Observer',
+  //   };
 
-    const workbook = await this.excelService.exportDataToExcel(
-      async (page, limit) => {
-        params.page = page;
-        params.limit = limit;
-        const [data] = await this.zaloMessageRepository.getZaloOAMessages(
-          params,
-          true,
-        );
+  //   const workbook = await this.excelService.exportDataToExcel(
+  //     async (page, limit) => {
+  //       params.page = page;
+  //       params.limit = limit;
+  //       const [data] = await this.zaloMessageRepository.getZaloOAMessages(
+  //         params,
+  //         true,
+  //       );
 
-        return [
-          data?.map((d) => {
-            const sentDate = new Date(d.timestamp);
+  //       return [
+  //         data?.map((d) => {
+  //           const sentDate = new Date(d.timestamp);
 
-            return {
-              sent_time: formatDateVN(sentDate),
-              from_id: d.from_id,
-              from_display_name: d.from_display_name,
-              activities: d.from_id ? 'Sent' : 'Response',
-              to_display_name: !d.from_id ? d.to_display_name : '',
-              message_type: upperCaseFirstLetter(d.event_name.split('_').pop()),
-              message: d.message,
-              initial: d.observer?.profile?.upi || '',
-              observer_name: d.observer?.profile?.full_name || '',
-            };
-          }),
-          0,
-        ];
-      },
-      header,
-      'ZaloMessages',
-    );
+  //           return {
+  //             sent_time: formatDateVN(sentDate),
+  //             from_id: d.from_id,
+  //             from_display_name: d.from_display_name,
+  //             activities: d.from_id ? 'Sent' : 'Response',
+  //             to_display_name: !d.from_id ? d.to_display_name : '',
+  //             message_type: upperCaseFirstLetter(d.event_name.split('_').pop()),
+  //             message: d.message,
+  //             initial: d.observer?.profile?.upi || '',
+  //             observer_name: d.observer?.profile?.full_name || '',
+  //           };
+  //         }),
+  //         0,
+  //       ];
+  //     },
+  //     header,
+  //     'ZaloMessages',
+  //   );
 
-    return {
-      key: await this.excelService.uploadWorkBookToS3(workbook, 'ZaloMessages'),
-    };
-  }
+  //   return {
+  //     key: await this.excelService.uploadWorkBookToS3(workbook, 'ZaloMessages'),
+  //   };
+  // }
 }

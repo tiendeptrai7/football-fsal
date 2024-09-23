@@ -20,7 +20,7 @@ export class AlterTableMedRepRemoveStatus1726632300998
       `ALTER TABLE "med_rep" DROP CONSTRAINT "UQ_a3ea9c28c6263dd53daf271189c"`,
     );
     await queryRunner.query(
-      `ALTER TABLE "med_rep" ADD "status" tinyint NOT NULL`,
+      `ALTER TABLE "med_rep" ADD "status" smallint NOT NULL`,
     );
     await queryRunner.query(
       `ALTER TABLE "med_rep" ADD CONSTRAINT "DF_b32289b2f665ffa9019b9dec271" DEFAULT 1 FOR "status"`,

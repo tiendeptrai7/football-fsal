@@ -17,7 +17,7 @@ export class Event extends BaseEntity {
   @Column({ unique: true })
   code: string;
 
-  @Column('ntext')
+  @Column('text')
   @ApiProperty()
   content: string;
 
@@ -53,7 +53,7 @@ export class Event extends BaseEntity {
   @ApiProperty()
   invite_expire_at: Date;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   is_public: EStatus;
 
@@ -61,7 +61,7 @@ export class Event extends BaseEntity {
   @ApiProperty()
   publish_at: Date;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   status: EStatus;
 

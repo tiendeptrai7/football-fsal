@@ -26,7 +26,7 @@ export class User extends BaseUUIDEntity {
   @ApiHideProperty()
   password: string;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   status: EStatus;
 
@@ -43,7 +43,7 @@ export class User extends BaseUUIDEntity {
   @ApiProperty({ type: () => UserRole, isArray: true })
   user_roles: UserRole[];
 
-  @Column('datetime', { nullable: true })
+  @Column('timestamp', { nullable: true })
   @ApiProperty()
   change_password_at: Date;
 

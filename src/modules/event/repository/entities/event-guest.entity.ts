@@ -27,7 +27,7 @@ export class EventGuest extends BaseEntity {
   @ApiProperty()
   qr_code: string;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   qr_status: EStatus;
 
@@ -35,11 +35,11 @@ export class EventGuest extends BaseEntity {
   @ApiProperty()
   invitation_time_at: Date;
 
-  @Column('tinyint', { default: EReplyStatus.pending })
+  @Column('smallint', { default: EReplyStatus.pending })
   @ApiProperty({ enum: EReplyStatus })
   reply_status: EReplyStatus;
 
-  @Column('tinyint', { default: EStatus.inactive })
+  @Column('smallint', { default: EStatus.inactive })
   @ApiProperty({ enum: EStatus })
   is_eligible: EStatus;
 

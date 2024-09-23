@@ -33,7 +33,7 @@ export class Feedback extends BaseEntity {
   @ApiProperty()
   feedback_expire_at: Date;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   status: EStatus;
 

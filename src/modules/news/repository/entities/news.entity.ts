@@ -17,7 +17,7 @@ export class News extends BaseEntity {
   @ApiProperty()
   code: string;
 
-  @Column('ntext')
+  @Column('text')
   @ApiProperty()
   content: string;
 

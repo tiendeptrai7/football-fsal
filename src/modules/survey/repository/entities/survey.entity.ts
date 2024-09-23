@@ -15,7 +15,7 @@ export class Survey extends BaseEntity {
   @ApiProperty()
   code: string;
 
-  @Column('tinyint', { default: EStatus.inactive })
+  @Column('smallint', { default: EStatus.inactive })
   @ApiProperty({ enum: EStatus })
   status: EStatus;
 

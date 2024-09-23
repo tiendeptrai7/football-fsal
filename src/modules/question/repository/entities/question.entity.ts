@@ -12,11 +12,11 @@ export class Question extends BaseEntity {
   @ApiProperty()
   content: string;
 
-  @Column('tinyint', { default: EQuestionType.single_choice })
+  @Column('smallint', { default: EQuestionType.single_choice })
   @ApiProperty({ enum: EQuestionType })
   type: EQuestionType;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   @ApiProperty({ enum: EStatus })
   is_required: EStatus;
 

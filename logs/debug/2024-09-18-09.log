@@ -1,4 +1,0 @@
-[31m[NOVO_NORDISK][39m [31m30261[39m 2024-09-18 09-09:29 +07:00 [31m  ERROR[39m [33m[SendMailProcessor.onQueueError][39m [31mJob has got error [39m - {"stack":[{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect"}]}
-[31m[NOVO_NORDISK][39m [31m30261[39m 2024-09-18 09-09:29 +07:00 [31m  ERROR[39m [33m[SendMailProcessor.onQueueError][39m [31mJob has got error [39m - {"stack":[{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect"}]}
-[31m[NOVO_NORDISK][39m [31m30261[39m 2024-09-18 09-09:42 +07:00 [31m  ERROR[39m [33m[SendMailProcessor.onQueueError][39m [31mJob has got error [39m - {"stack":[{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect"}]}
-[31m[NOVO_NORDISK][39m [31m30261[39m 2024-09-18 09-09:42 +07:00 [31m  ERROR[39m [33m[SendMailProcessor.onQueueError][39m [31mJob has got error [39m - {"stack":[{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect"}]}

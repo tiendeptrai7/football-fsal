@@ -15,14 +15,7 @@ import { CacheService } from './services/cache.service';
       useFactory: async (configService: ConfigService) => {
         return {
           store: await redisStore({
-            socket: {
-              host: configService.get('cache.redisHost'),
-              port: +configService.get('cache.redisPort'),
-            },
-            database: configService.get('cache.redisDatabase'),
-            username: configService.get('cache.redisUsername'),
-            password: configService.get('cache.redisPassword'),
-            keyPrefix: configService.get('cache.redisPrefix'),
+            url: 'rediss://red-crohjld6l47c73fnoorg:z3kvVhGLicgaxE8UZLNlrfArZmKAdMp0@oregon-redis.render.com:6379',
           }),
           ttl: +configService.get('cache.redisTTL'),
         } as CacheModuleAsyncOptions;
@@ -33,12 +26,7 @@ import { CacheService } from './services/cache.service';
       useFactory: async (configService: ConfigService) => {
         return {
           config: {
-            host: configService.get<string>('cache.redisHost'),
-            port: configService.get<number>('cache.redisPort'),
-            db: configService.get<number>('cache.redisDatabase'),
-            username: configService.get<string>('cache.redisUsername'),
-            password: configService.get<string>('cache.redisPassword'),
-            keyPrefix: configService.get<string>('cache.redisPrefix'),
+            url: 'rediss://red-crohjld6l47c73fnoorg:z3kvVhGLicgaxE8UZLNlrfArZmKAdMp0@oregon-redis.render.com:6379',
           },
         } as RedisModuleOptions;
       },

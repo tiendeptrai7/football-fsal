@@ -9,7 +9,7 @@ import { SubmissionAnswer } from './submission-answer.entity';
 
 @Entity()
 export class Submission extends BaseEntity {
-  @Column('tinyint')
+  @Column('smallint')
   @ApiProperty({ enum: EQuestionType })
   question_type: EQuestionType;
 

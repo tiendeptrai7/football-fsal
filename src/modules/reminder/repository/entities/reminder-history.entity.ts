@@ -8,7 +8,7 @@ import { Reminder } from './reminder.entity';
 
 @Entity()
 export class ReminderHistory extends BaseEntity {
-  @Column('tinyint', { default: EStatus.inactive })
+  @Column('smallint', { default: EStatus.inactive })
   @ApiProperty({ enum: EStatus })
   reply_status: EStatus;
 

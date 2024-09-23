@@ -14,15 +14,15 @@ export class EmailToken extends BaseEntity {
   token: string;
 
   @Column({
-    type: 'datetime',
+    type: 'timestamp',
     nullable: false,
     default: () => 'CURRENT_TIMESTAMP',
   })
   token_expires_at: Date;
 
-  @Column('datetime', { nullable: true })
+  @Column('timestamp', { nullable: true })
   verified_at: Date;
 
-  @Column('tinyint', { default: EStatus.active })
+  @Column('smallint', { default: EStatus.active })
   status: EStatus;
 }

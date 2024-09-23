@@ -5,7 +5,7 @@ export class AddTableHcoAndAlterHcp1726038835586 implements MigrationInterface {
 
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.query(
-      `CREATE TABLE "hco" ("created_at" datetime2 NOT NULL CONSTRAINT "DF_fa21c5ee4877a4c6bfe90f8d040" DEFAULT getdate(), "updated_at" datetime2 NOT NULL CONSTRAINT "DF_465d7e4ce4cc905b2829284b7e0" DEFAULT getdate(), "id" int NOT NULL IDENTITY(1,1), "code" nvarchar(255) NOT NULL, "name" nvarchar(255) NOT NULL, "status" tinyint NOT NULL, CONSTRAINT "UQ_cdc22a91d92510b0b07c79543c5" UNIQUE ("code"), CONSTRAINT "PK_42a68a4b47f8cc2e33adca75b98" PRIMARY KEY ("id"))`,
+      `CREATE TABLE "hco" ("created_at" datetime2 NOT NULL CONSTRAINT "DF_fa21c5ee4877a4c6bfe90f8d040" DEFAULT getdate(), "updated_at" datetime2 NOT NULL CONSTRAINT "DF_465d7e4ce4cc905b2829284b7e0" DEFAULT getdate(), "id" int NOT NULL IDENTITY(1,1), "code" nvarchar(255) NOT NULL, "name" nvarchar(255) NOT NULL, "status" smallint NOT NULL, CONSTRAINT "UQ_cdc22a91d92510b0b07c79543c5" UNIQUE ("code"), CONSTRAINT "PK_42a68a4b47f8cc2e33adca75b98" PRIMARY KEY ("id"))`,
     );
     await queryRunner.query(`ALTER TABLE "hcp" DROP COLUMN "hco"`);
     await queryRunner.query(
@@ -33,7 +33,7 @@ export class AddTableHcoAndAlterHcp1726038835586 implements MigrationInterface {
     await queryRunner.query(`ALTER TABLE "hcp" DROP COLUMN "hco_id"`);
     await queryRunner.query(`ALTER TABLE "hcp" DROP COLUMN "title"`);
     await queryRunner.query(`ALTER TABLE "hcp" DROP COLUMN "dob"`);
-    await queryRunner.query(`ALTER TABLE "hcp" ADD "status" tinyint NOT NULL`);
+    await queryRunner.query(`ALTER TABLE "hcp" ADD "status" smallint NOT NULL`);
     await queryRunner.query(
       `ALTER TABLE "hcp" ADD CONSTRAINT "DF_f725c5e67419636a500411a2ae0" DEFAULT 1 FOR "status"`,
     );

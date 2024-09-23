@@ -48,10 +48,10 @@ export class ZaloMessageAdminController {
     return await this.service.observeMessage(user, body);
   }
 
-  @Get('export')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'zalo_message_manage_observe' })
-  async export(@Query() params: FilterZaloMessageDto) {
-    return await this.service.export(params);
-  }
+  // @Get('export')
+  // @HttpCode(HttpStatus.OK)
+  // @Auth({ permissions: 'zalo_message_manage_observe' })
+  // async export(@Query() params: FilterZaloMessageDto) {
+  //   return await this.service.export(params);
+  // }
 }

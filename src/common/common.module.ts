@@ -1,12 +1,12 @@
 import { ExcelModule } from '@common/excel/excel.module';
 import { QueueConfigModule } from '@common/queue/queue.module';
-import { S3Module } from '@common/s3/s3.module';
+// import { S3Module } from '@common/s3/s3.module';
 import configs from '@configs/index';
 import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 
-import { AzureStorageModule } from './azure-storage/azure-storage.module';
+// import { AzureStorageModule } from './azure-storage/azure-storage.module';
 import { CacheConfigModule } from './cache/cache.config.module';
 import { DatabaseModule } from './database/database.module';
 import { ErrorModule } from './error/error.module';
@@ -39,8 +39,8 @@ import { RequestModule } from './request/request.module';
     CacheConfigModule,
     QueueConfigModule,
     ExcelModule,
-    S3Module,
-    AzureStorageModule,
+    // S3Module,
+    // AzureStorageModule,
   ],
 })
 export class CommonModule {}

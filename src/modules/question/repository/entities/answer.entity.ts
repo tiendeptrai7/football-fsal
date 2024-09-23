@@ -12,7 +12,7 @@ export class Answer extends BaseEntity {
   @ApiProperty()
   content: string;
 
-  @Column('tinyint', { default: EStatus.inactive })
+  @Column('smallint', { default: EStatus.inactive })
   @ApiProperty({ enum: EStatus })
   require_input: EStatus;
 

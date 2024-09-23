@@ -14,7 +14,7 @@ export class FormQuestion extends BaseEntity {
   @ApiProperty()
   order: number;
 
-  @Column('tinyint')
+  @Column('smallint')
   @ApiProperty({ enum: EFormType })
   form_type: EFormType;
 

@@ -6,12 +6,12 @@ export class AlterTableHcoGenderNull1726041661646
   name = 'AlterTableHcoGenderNull1726041661646';
 
   public async up(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.query(`ALTER TABLE "hcp" ALTER COLUMN "gender" tinyint`);
+    await queryRunner.query(`ALTER TABLE "hcp" ALTER COLUMN "gender" smallint`);
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.query(
-      `ALTER TABLE "hcp" ALTER COLUMN "gender" tinyint NOT NULL`,
+      `ALTER TABLE "hcp" ALTER COLUMN "gender" smallint NOT NULL`,
     );
   }
 }
