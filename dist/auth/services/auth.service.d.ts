@@ -1,0 +1,41 @@
+import { ChangePasswordDto } from '@auth/dtos/change-password.dto';
+import { ForgotPasswordDto, ResetPasswordDto, VerifyEmailTokenDto } from '@auth/dtos/forgot-password.dto';
+import { UserRepository } from '@modules/user/repository/repositories/user.repository';
+import { ConfigService } from '@nestjs/config';
+import { JwtService } from '@nestjs/jwt';
+import { I18nService } from 'nestjs-i18n';
+import { EAuthType } from '../constants/auth.enum';
+import { EmailTokenRepository } from '../repository/repositories/email-token.repository';
+import { TokenRepository } from '../repository/repositories/token.repository';
+import { AuthBody, AuthToken, AuthUser } from '../types/auth.type';
+import { AuthEmailTokenService } from './auth.email-token.service';
+import { AuthPasswordService } from './auth.password.service';
+import { AuthZaloService } from './auth.zalo.service';
+export declare class AuthService {
+    private readonly configService;
+    private readonly userRepository;
+    private readonly tokenRepository;
+    private readonly emailTokenRepository;
+    private readonly jwtService;
+    private readonly authPasswordService;
+    private readonly authZaloService;
+    private readonly authEmailTokenService;
+    private readonly messageService;
+    constructor(configService: ConfigService, userRepository: UserRepository, tokenRepository: TokenRepository, emailTokenRepository: EmailTokenRepository, jwtService: JwtService, authPasswordService: AuthPasswordService, authZaloService: AuthZaloService, authEmailTokenService: AuthEmailTokenService, i18nService: I18nService);
+    authentication(body: AuthBody): Promise<AuthUser>;
+    verifyToken(userId: string, authToken: string, type: EAuthType): Promise<AuthUser>;
+    token(user: AuthUser): Promise<AuthToken>;
+    removeToken(token: string, type: EAuthType): Promise<void>;
+    forgotPassword(body: ForgotPasswordDto): Promise<void>;
+    verifyEmailToken(body: VerifyEmailTokenDto): Promise<void>;
+    resetPassword(body: ResetPasswordDto): Promise<void>;
+    changePassword(body: ChangePasswordDto, loggedUser: AuthUser): Promise<void>;
+    checkAccount(body: {
+        username: string;
+        password: string;
+    }): Promise<void>;
+    private _generateAuthUser;
+    private _checkAdminAccess;
+    private _generateToken;
+    private _validateAuthenticate;
+}

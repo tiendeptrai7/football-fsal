@@ -1,0 +1,5 @@
+{
+    "NOT_FOUND": "Event form not found",
+    "NAME_ALREADY_EXIST": "Name already exist",
+    "HCP_ALREADY_REGISTERED": "This HCP has already been registered for the event"
+}

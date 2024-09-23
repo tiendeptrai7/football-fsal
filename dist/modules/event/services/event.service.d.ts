@@ -1,0 +1,35 @@
+import { CacheService } from '@common/cache/services/cache.service';
+import { ListPaginate } from '@common/database/types/database.type';
+import { FilterReminderPublicDto } from '@modules/reminder/dtos/filter-reminder.dto';
+import { ReminderRepository } from '@modules/reminder/repository/repositories/reminder.repository';
+import { I18nService } from 'nestjs-i18n';
+import { CheckInDto, CreateEventDto } from '../dtos/create-event.dto';
+import { FilterEventDto, FilterEventRelatedHcp } from '../dtos/filter-event.dto';
+import { UpdateEventDto } from '../dtos/update-event.dto';
+import { EventRelatedHCPResponse } from '../interfaces/event-response.interface';
+import { Event } from '../repository/entities/event.entity';
+import { EventGuest } from '../repository/entities/event-guest.entity';
+import { EventRepository } from '../repository/repositories/event.repository';
+import { EventGuestRepository } from '../repository/repositories/event-guest.repository';
+export declare class EventService {
+    private readonly cacheService;
+    private readonly eventRepository;
+    private readonly reminderRepository;
+    private readonly eventGuestRepository;
+    private newsMessage;
+    constructor(i18nService: I18nService, cacheService: CacheService, eventRepository: EventRepository, reminderRepository: ReminderRepository, eventGuestRepository: EventGuestRepository);
+    getList(params: FilterEventDto): Promise<ListPaginate<Event>>;
+    getReminderHistoryList(params: FilterReminderPublicDto, user_id: string): Promise<[Event[], number]>;
+    getListPublic(params: FilterEventDto): Promise<ListPaginate<Event>>;
+    getById(id: number): Promise<Event>;
+    userGetById(id: number): Promise<Event>;
+    create(input: CreateEventDto): Promise<void>;
+    update(input: UpdateEventDto): Promise<void>;
+    toggle(id: number): Promise<void>;
+    togglePublic(id: number): Promise<void>;
+    displayTicketInfo(codeOrId: string | number): Promise<EventGuest>;
+    checkIn(input: CheckInDto): Promise<void>;
+    getListEventRelatedHCP(params: FilterEventRelatedHcp): Promise<EventRelatedHCPResponse[]>;
+    _getINCRCode(): Promise<string>;
+    private _findAndValidateTicket;
+}

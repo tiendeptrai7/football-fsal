@@ -1,0 +1,828 @@
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:05:48 +0000] "POST /api/v1/auth/token HTTP/1.1" 201 873 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:05:48 +0000] "POST /api/v1/auth/token HTTP/1.1" 201 873 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:05:49 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:05:51 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:53 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:05:53 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:58 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:05:58 +0000] "GET /api/v1/admin/users/zalo?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:02 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:06:02 +0000] "GET /api/v1/admin/users/zalo?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:04 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:06:04 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:06:16 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:18 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:06:18 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:18 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:06:18 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:09 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:12:09 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:58 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:12:58 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:01 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:13:01 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:03 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:13:03 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:10 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:13:10 +0000] "GET /api/v1/admin/users/zalo?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:13:13 +0000] "GET /api/v1/admin/users/zalo?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:57 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:13:57 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:14 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:14 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:16 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:17 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:17 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:17 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:17 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:19 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:19 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:19 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:21 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:21 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:23 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:23 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:24 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:24 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:25 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:25 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:28 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:28 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:30 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:31 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:31 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:33 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:33 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:34 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:34 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:36 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:36 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:37 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:47 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:47 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:49 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:15:49 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:10 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:10 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:13 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:13 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:21 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:21 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:22 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:22 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:22 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:22 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:24 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:26 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:26 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:27 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:27 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:37 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:39 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:39 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:39 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:39 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:43 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:43 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:45 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:45 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:46 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:48 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:50 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:50 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:16:51 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:09 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:09 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:11 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:11 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:11 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:11 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:13 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:13 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:13 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:15 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:15 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:16 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:17 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:17 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:39 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:39 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:41 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:41 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:41 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:41 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:43 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:43 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:45 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:45 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:46 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:50 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:50 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:52 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:52 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:52 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:52 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:55 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:55 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:57 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:57 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:58 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:17:58 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:02 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:02 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 201 846 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:03 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:03 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:04 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:04 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:04 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:04 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:07 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:07 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:08 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:08 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:08 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:08 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:10 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:10 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:10 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:10 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:10 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:10 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:11 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:11 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:14 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:14 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:14 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:14 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[31m[NOVO_NORDISK][39m [31m72476[39m 2024-09-18 16-09:30 +07:00 [31m  ERROR[39m [33m[QUERY_FAILED][39m [31m🔥 TypeORM query error. Message: Error: Failed to cancel request in 5000ms.[39m - {"stack":["QueryFailedError: Error: Failed to cancel request in 5000ms\n    at <anonymous> (/Users/mac/Documents/GitHub/be-novo/node_modules/typeorm/driver/src/driver/sqlserver/SqlServerQueryRunner.ts:282:30)\n    at /Users/mac/Documents/GitHub/be-novo/node_modules/mssql/lib/base/request.js:440:25\n    at Request.userCallback (/Users/mac/Documents/GitHub/be-novo/node_modules/mssql/lib/tedious/request.js:492:15)\n    at Request.Request.callback (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/request.ts:379:14)\n    at apply (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:3772:20)\n    at dispatchEvent (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:2313:15)\n    at cancelTimeout (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:2209:10)\n    at Timeout._onTimeout (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:2156:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"]}
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:46 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:49 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:49 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:52 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:52 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:55 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:55 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:58 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:21:58 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:16 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:19 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:19 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:19 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:21 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:21 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:23 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:23 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:23 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:23 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:33 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:34 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:34 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:36 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:36 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:37 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:38 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:38 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:41 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:41 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:41 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:41 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:43 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:43 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:44 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:44 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:44 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:44 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:46 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:48 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:22:48 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:18 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:18 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:19 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:20 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:20 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:22 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:22 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:24 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:25 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:25 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:29 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:29 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:30 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:23:30 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:16 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:17 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:17 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:17 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:17 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:19 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:19 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:20 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:20 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:21 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:21 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:22 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:22 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:24 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:24 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:26 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:26 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:28 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:28 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:34 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:34 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:36 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:36 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:36 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:36 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:37 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:38 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:38 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:39 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:39 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:39 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:39 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:40 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:40 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:42 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:42 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:42 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:42 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:45 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:45 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:46 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:47 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:47 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:49 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:51 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:52 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:52 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:58 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:25:58 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:00 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:26:00 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:01 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:26:01 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:01 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:26:01 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:03 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:26:03 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:05 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:26:05 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:05 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:26:05 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:28 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:30 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:32 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:32 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:32 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:32 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:37 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:38 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:38 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:38 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:38 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:41 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:41 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:43 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:43 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:43 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:27:43 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[31m[NOVO_NORDISK][39m [31m72476[39m 2024-09-18 16-09:58 +07:00 [31m  ERROR[39m [33m[QUERY_FAILED][39m [31m🔥 TypeORM query error. Message: Error: Failed to cancel request in 5000ms.[39m - {"stack":["QueryFailedError: Error: Failed to cancel request in 5000ms\n    at <anonymous> (/Users/mac/Documents/GitHub/be-novo/node_modules/typeorm/driver/src/driver/sqlserver/SqlServerQueryRunner.ts:282:30)\n    at /Users/mac/Documents/GitHub/be-novo/node_modules/mssql/lib/base/request.js:440:25\n    at Request.userCallback (/Users/mac/Documents/GitHub/be-novo/node_modules/mssql/lib/tedious/request.js:492:15)\n    at Request.Request.callback (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/request.ts:379:14)\n    at apply (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:3772:20)\n    at dispatchEvent (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:2313:15)\n    at cancelTimeout (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:2209:10)\n    at Timeout._onTimeout (/Users/mac/Documents/GitHub/be-novo/node_modules/tedious/src/connection.ts:2156:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"]}
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:13 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:14 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:14 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:15 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:15 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:24 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:26 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:26 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:28 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:33 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:35 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:35 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:35 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:35 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:40 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:40 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:42 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:42 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:42 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:42 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:44 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:44 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:46 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:47 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:47 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:49 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:49 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:51 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:28:51 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:02 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:02 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:04 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:04 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:05 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:05 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:45 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:45 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:46 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:46 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:46 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:48 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:50 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:50 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:50 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:29:50 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:11 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:11 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:11 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:11 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:11 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:11 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:12 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:12 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:13 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:13 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:13 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:14 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:14 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:16 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:16 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:16 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:17 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:17 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:18 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:18 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:21 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:21 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:21 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:21 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:26 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:26 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:28 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:28 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:29 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:29 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:50 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:50 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:52 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:52 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:53 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:53 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:54 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:30:54 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:07 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:07 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:09 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:09 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:09 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:09 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:29 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:29 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:30 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:30 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:32 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:32 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:33 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:33 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:34 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:34 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:37 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:38 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:31:38 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:23 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:32:23 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:25 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:32:25 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:27 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:32:27 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:31 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:32:31 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:32:33 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:33 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:32:33 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:33:51 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:33:51 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:33:51 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:54 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:33:54 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:56 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:33:56 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:57 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:33:57 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:22 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:22 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:24 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 200 1096 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:24 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:24 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:24 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:27 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:27 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:30 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:32 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:32 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:45 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:45 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:47 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:47 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:48 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:48 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:51 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:51 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:51 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:51 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" - - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:53 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:53 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:55 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:55 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 200 1043 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:55 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:34:55 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 200 806 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:37 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:35:37 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:39 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:35:39 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:40 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:35:40 +0000] "GET /api/v1/admin/users/zalo/AD54EC1F-856E-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:27 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:51:27 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 201 846 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:51:30 +0000] "GET /api/v1/admin/hcos?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:31 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:51:31 +0000] "GET /api/v1/admin/users/zalo?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:31 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:51:31 +0000] "GET /api/v1/admin/hcos?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:34 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:51:34 +0000] "GET /api/v1/admin/users/zalo?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:53 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:51:53 +0000] "GET /api/v1/admin/users/zalo/261A6785-8D5F-EF11-8549-005056015C48 HTTP/1.1" 200 1158 "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:27 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:54:27 +0000] "GET /api/v1/admin/permissions/my-permission HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:54:30 +0000] "GET /api/v1/admin/users/zalo/261A6785-8D5F-EF11-8549-005056015C48 HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[NOVO_NORDISK] 72476  2024-09-18 16-09:30 +07:00    HTTP [33m[HTTP][39m ::1 - - [18/Sep/2024:09:54:30 +0000] "GET /api/v1/admin/users/my-profile HTTP/1.1" 304 - "http://localhost:4400/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mCommonModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggerMiddlewareModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mDatabaseModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRequestMiddlewareModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mJobsModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mMessageModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mQueueConfigModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRouterModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mPassportModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mGuestModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mLogModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mHttpModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mHttpModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRouterModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mDiscoveryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggerModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTerminusModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mErrorModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mBullModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mBullModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mThrottlerModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mWinstonModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRequestModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mBullModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mCacheConfigModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mI18nModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mS3Module dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mAzureStorageModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mExcelModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mCacheModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mSystemRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRoleRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mUserRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mTokenRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mPermissionRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mHcpRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mGuestRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mHcoRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mMedRepRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mZaloRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mReminderRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mEventRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mQuestionRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mFeedbackRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mNewsRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRecapRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mSurveyRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mFormQuestionRepositoryModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mPermissionModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRoleModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mQuestionModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mNewsModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRecapModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mFormQuestionModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mMedRepModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mHcoModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mHcpModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mMailModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mSystemModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mReminderModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mFeedbackModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mSurveyModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mEventModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRoutesOrganizerModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mZaloModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRoutesAdminModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mRoutesPublicModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mHealthPublicController {/api/health} (version: Neutral):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/health/mail, GET} (version: Neutral) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/health/database, GET} (version: Neutral) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/health/memory-heap, GET} (version: Neutral) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/health/memory-rss, GET} (version: Neutral) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/health/storage, GET} (version: Neutral) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mSystemPublicController {/api/system} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/system, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/system/:key, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mUserPublicController {/api/users} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users/my-profile, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users/my-profile, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users/follow-oa, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mFeedbackPublicController {/api/feedbacks} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/feedbacks, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/feedbacks/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/feedbacks/submit, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/feedbacks/documents/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mNewsPublicController {/api/news} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/news, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/news/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventPublicController {/api/events} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/events, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/events/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventGuestPublicController {/api/event-guests} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/event-guests/invitations, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/event-guests, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mRecapPublicController {/api/recaps} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/recaps, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/recaps/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mReminderPublicController {/api/reminders} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/reminders/histories, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/reminders/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mSurveyPublicController {/api/surveys} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/surveys, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/surveys/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/surveys/submit, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mZaloHookPublicController {/api/zalo} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/zalo/hook, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/zalo/hook/zalo_verifierEVAY6SE48Hy5cQGMmkv_A1hVxJ3sgJrjCJOs.html, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventFormPublicController {/api/event-form} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/event-form/info-sheet/:event_id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/event-form/submit-accompanying-guest, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventFormOptionPublicController {/api/event-form-options} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/event-form-options/:event_form_detail_id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mPermissionAdminController {/api/admin/permissions} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/permissions, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/permissions, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/permissions/my-permission, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/permissions, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/permissions/:id([0-9]+), DELETE} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mRoleAdminController {/api/admin/roles} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles/all, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles/:id([0-9]+), DELETE} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/roles/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mSystemAdminController {/api/admin/system} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/system, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/system, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/system/by-key/:key, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/system/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/system, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/system/:id([0-9]+), DELETE} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mUserAdminController {/api/admin/users} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/my-profile, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/zalo, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/zalo/:id, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/:id, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/toggle/status/:id, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/reset-lock, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/users/:id, DELETE} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mLogAdminController {/api/admin/logs} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/logs, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/logs/:logFile, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mNewsAdminController {/api/admin/news} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/news, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/news, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/news, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/news/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/news/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventAdminController {/api/admin/events} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events/hcp-relations, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/events/toggle/public/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mHcpAdminController {/api/admin/hcps} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps/referred, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps/sync, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps/:id([0-9]+)/histories, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcps/export, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mMedRepAdminController {/api/admin/med-reps} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/med-reps, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/med-reps/all, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/med-reps/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/med-reps/sync, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventGuestAdminController {/api/admin/event-guest} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-guest, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-guest/:id([0-9]+), DELETE} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-guest/toggle/qr/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-guest/import, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mRecapAdminController {/api/admin/recaps} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/recaps, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/recaps, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/recaps/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/recaps, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/recaps/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mFeedbackAdminController {/api/admin/feedbacks} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/feedbacks, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/feedbacks/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/feedbacks, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/feedbacks, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/feedbacks/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mSurveyAdminController {/api/admin/surveys} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/copy/:id([0-9]+), POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/participants, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/participants/export, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/participant/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/overview/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/detail/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/detail/bar-chart/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/detail/short-answer/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/surveys/reports/detail/line-chart/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventFormAdminController {/api/admin/event-form} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-form, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-form, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-form, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-form/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/event-form/toggle/status/:id([0-9]+), PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mZaloMessageAdminController {/api/admin/zalo-messages} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/zalo-messages, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/zalo-messages/observers, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/zalo-messages/observes, PUT} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/zalo-messages/export, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mHcoAdminController {/api/admin/hcos} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcos, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/admin/hcos/sync, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventOrganizerController {/api/organizer/events} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/events, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/events/:id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/events/:qr_code, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/events/check-in, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventFormOrganizerController {/api/organizer/event-form} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/event-form/info-sheet/:event_id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/event-form/submit-accompanying-guest, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventFormOptionOrganizerController {/api/organizer/event-form-options} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/event-form-options/:event_form_detail_id([0-9]+), GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mEventGuestOrganizerController {/api/organizer/event-guests} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/organizer/event-guests, GET} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth} (version: 1):[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/token, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/refresh, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/revoke, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/forgot, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/verify, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/reset-password, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/change-password, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/check-accounts, POST} (version: 1) route[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m  [32m==========================================================[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mJob is false[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mHttp is true, routes registered[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mHttp versioning is true[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mHttp Server running on http://[::1]:3000[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mDatabase uri mssql://10.0.1.202/novo_nordisk[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m [33m[NestApplication][39m [32mCors whitelist true[39m
+[32m[NOVO_NORDISK][39m [32m77394[39m 2024-09-18 16-09:22 +07:00 [32m    LOG[39m  [32m==========================================================[39m

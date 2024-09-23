@@ -1,0 +1,1 @@
+{"version":3,"file":"notify.config.js","sourceRoot":"","sources":["../../src/configs/notify.config.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;AAAA,2CAA4C;AAC5C,iDAAmC;AAEnC,kBAAe,IAAA,mBAAU,EACvB,QAAQ,EACR,GAAwB,EAAE,CAAC,CAAC;IAC1B,QAAQ,EAAE,GAAG,OAAO,CAAC,GAAG,CAAC,eAAe,IAAI,OAAO,CAAC,GAAG,CAAC,UAAU,IAAI,OAAO,CAAC,GAAG,CAAC,UAAU,EAAE;CAC/F,CAAC,CACH,CAAC"}

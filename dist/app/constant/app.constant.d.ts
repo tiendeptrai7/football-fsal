@@ -1,0 +1,41 @@
+import { EGender, EZaloEventTypes } from './app.enum';
+export declare const VERIFY_EMAIL_REGEX = "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\u0001-\b\v\f\u000E-\u001F!#-[]-]|\\\\[\u0001-\t\v\f\u000E-])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\u0001-\b\v\f\u000E-\u001F!-ZS-]|\\\\[\u0001-\t\v\f\u000E-])+)\\])";
+export declare const PHONE_REGEX: RegExp;
+export declare const SLUG_REGEX: RegExp;
+export declare const CODE_REGEX: RegExp;
+export declare const URL_REGEX: RegExp;
+export declare const STRONG_PASSWORD_REGEX: RegExp;
+export declare const USER_NAME_REGEX: RegExp;
+export declare const DATE_FORMAT_REGEX: RegExp;
+export declare const INCREMENT_CODE: {
+    RECAP: string;
+    EVENT: string;
+    REMINDER: string;
+    NEWS: string;
+    FEEDBACK: string;
+    SURVEY: string;
+    HCP_REFERRAL: string;
+    FORM_MANAGEMENT: string;
+};
+export declare const AppZaloEventTypes: {
+    USER_SEND_TEXT: EZaloEventTypes;
+    USER_SEND_GIF: EZaloEventTypes;
+    USER_SEND_IMAGE: EZaloEventTypes;
+    USER_SEND_LINK: EZaloEventTypes;
+    USER_SEND_AUDIO: EZaloEventTypes;
+    USER_SEND_VIDEO: EZaloEventTypes;
+    USER_SEND_STICKER: EZaloEventTypes;
+    USER_SEND_LOCATION: EZaloEventTypes;
+    USER_SEND_BUSINESS_CARD: EZaloEventTypes;
+    USER_SEND_FILE: EZaloEventTypes;
+    OA_SEND_TEXT: EZaloEventTypes;
+    OA_SEND_IMAGE: EZaloEventTypes;
+    OA_SEND_GIFT: EZaloEventTypes;
+    OA_SEND_LIST: EZaloEventTypes;
+    OA_SEND_FILE: EZaloEventTypes;
+    OA_SEND_STICKER: EZaloEventTypes;
+};
+export declare const AppGender: {
+    value: EGender;
+    content: string;
+}[];
