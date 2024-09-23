@@ -64,7 +64,7 @@ export class AuthZaloService {
       const code = padStart(String(count + 1), 8, '0');
 
       const body: User = {
-        username: `novo_nordisk_${zalo_profile.id}`,
+        username: `user_${zalo_profile.id}`,
         password:
           defaultPass || (await hashPassword(new Date().getTime().toString())),
         profile: {

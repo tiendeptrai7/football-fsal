@@ -59,13 +59,6 @@ export class SurveyAdminController {
     return await this.service.getById(id);
   }
 
-  @Post('copy/:id([0-9]+)')
-  @HttpCode(HttpStatus.NO_CONTENT)
-  @Auth({ permissions: 'survey_manage_create' })
-  async copy(@Param('id') id: number): Promise<void> {
-    return this.service.copy(id);
-  }
-
   @Put()
   @HttpCode(HttpStatus.NO_CONTENT)
   @Auth({ permissions: 'survey_manage_update' })
@@ -78,67 +71,5 @@ export class SurveyAdminController {
   @Auth({ permissions: 'survey_manage_update' })
   async toggle(@Param('id') id: number): Promise<void> {
     return await this.service.toggle(id);
-  }
-
-  @Get('reports')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getListReport(
-    @Query() param: BaseFilterParamDto,
-  ): Promise<ListPaginate<Survey>> {
-    return await this.service.getListRport(param);
-  }
-
-  @Get('reports/participants')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getListParticipantReport(
-    @Query() param: FilterParticipantDto,
-  ): Promise<ListPaginate<EventGuest>> {
-    return await this.service.getListParticipantReport(param);
-  }
-
-  @Get('reports/overview/:id([0-9]+)')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getOverviewReport(@Param('id') id: number): Promise<OverviewResponse> {
-    return await this.service.getOverviewReport(id);
-  }
-
-  @Get('reports/detail/:id([0-9]+)')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getDetailReport(@Param('id') id: number): Promise<DetailResponse[]> {
-    return await this.service.getDetailReport(id);
-  }
-
-  @Get('reports/detail/bar-chart/:id([0-9]+)')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getBarChart(
-    @Param('id') id: number,
-    @Query() param: ChartDto,
-  ): Promise<BarChartResponse> {
-    return await this.service.getBarChart(param, id);
-  }
-
-  @Get('reports/detail/short-answer/:id([0-9]+)')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getShortAnswer(
-    @Param('id') id: number,
-    @Query() param: ChartDto,
-  ): Promise<ShortAnswerResponse[]> {
-    return await this.service.getShortAnswer(param, id);
-  }
-
-  @Get('reports/detail/line-chart/:id([0-9]+)')
-  @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: 'survey_report_manage_read' })
-  async getLineChart(
-    @Param('id') id: number,
-    @Query() param: ChartDto,
-  ): Promise<LineChartResponse> {
-    return await this.service.getLineChart(param, id);
   }
 }

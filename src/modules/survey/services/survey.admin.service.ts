@@ -1,13 +1,10 @@
 import { INCREMENT_CODE } from '@app/constant/app.constant';
 import { EFormType, EStatus } from '@app/constant/app.enum';
 import { CacheService } from '@common/cache/services/cache.service';
-import { BaseFilterParamDto } from '@common/database/dtos/base-filter.dto';
 import { ListPaginate } from '@common/database/types/database.type';
 import CustomError from '@common/error/exceptions/custom-error.exception';
-import { ExcelService } from '@common/excel/services/excel.service';
 import { MessageService } from '@common/message/services/message.service';
 import { wrapPagination } from '@common/utils/object.util';
-import { EventGuest } from '@modules/event/repository/entities/event-guest.entity';
 import { EventService } from '@modules/event/services/event.service';
 import { EventGuestService } from '@modules/event/services/event-guest.service';
 import { FormQuestion } from '@modules/form-question/repository/entities/form-question.entity';
@@ -22,18 +19,9 @@ import { HttpStatus, Injectable } from '@nestjs/common';
 import dayjs from 'dayjs';
 import { I18nService } from 'nestjs-i18n';
 
-import { ChartDto } from '../dtos/chart-report.dto';
 import { CreateSurveyFormDto } from '../dtos/create-survey.dto';
 import { FilterSurveyDto } from '../dtos/filter-survey.dto';
-import { FilterParticipantDto } from '../dtos/participant-report-filter.dto';
 import { UpdateSurveyFormDto } from '../dtos/update-survey.dto';
-import {
-  BarChartResponse,
-  DetailResponse,
-  LineChartResponse,
-  OverviewResponse,
-  ShortAnswerResponse,
-} from '../interfaces/report-survey-response.interface';
 import { Survey } from '../repository/entities/survey.entity';
 import { SurveyRepository } from '../repository/repositories/survey.repository';
 
@@ -175,28 +163,6 @@ export class SurveyAdminService {
     await this.surveyRepository.update({ id }, { status });
   }
 
-  async copy(id: number): Promise<void> {
-    const survey = await this.surveyRepository.getById(id);
-    if (!survey) {
-      throw new CustomError(
-        HttpStatus.NOT_FOUND,
-        'NOT_FOUND',
-        this.surveyMessage.get('NOT_FOUND'),
-      );
-    }
-    const code = await this._getINCRCode();
-    const newSurvey = await this.surveyRepository.save({
-      ...survey,
-      code: code,
-    });
-
-    await this.formQuestionRepository.save(
-      survey.form_questions.map((fq) =>
-        Object.assign(fq, { form_id: newSurvey.id }),
-      ),
-    );
-  }
-
   async _getINCRCode(): Promise<string> {
     const getLastCode = async () => {
       const lastRecord = await this.surveyRepository.findOne({
@@ -217,109 +183,5 @@ export class SurveyAdminService {
       identifier,
       getLastCode,
     );
-  }
-
-  async getListRport(
-    params: BaseFilterParamDto,
-  ): Promise<ListPaginate<Survey>> {
-    const [data, count] = await this.surveyRepository.getListReport(params);
-
-    const dataReport = data.map((d) => {
-      return Object.assign(d, {
-        event_guest_total: d.event?.event_guest?.length ?? 0,
-      });
-    });
-
-    return wrapPagination<Survey>(dataReport, count, params);
-  }
-
-  async getListParticipantReport(
-    params: FilterParticipantDto,
-  ): Promise<ListPaginate<EventGuest>> {
-    return await this.eventGuestService.getListParticipantReport(params);
-  }
-
-  async getOverviewReport(id: number): Promise<OverviewResponse> {
-    const app = await this.surveyRepository.getOverviewReport(id);
-    const reportData = app?.event?.event_guest.map((event_guest) => {
-      if (event_guest?.submissions.length > 0) {
-        event_guest.submissions = event_guest.submissions.filter(
-          (submission) => {
-            return (
-              submission?.form_question?.form_id === id &&
-              submission?.form_question?.form_type === EFormType.survey
-            );
-          },
-        );
-      }
-      return event_guest;
-    });
-
-    const total = app?.event?.event_guest?.length ?? 0;
-    const completed = reportData.filter((e) => e.submissions.length > 0) ?? [];
-    return {
-      total_completed: completed.length,
-      total_uncompleted: total - completed.length,
-    };
-  }
-
-  async getDetailReport(id: number): Promise<DetailResponse[]> {
-    const app = await this.surveyRepository.getDetailReport(id);
-    const reportData = app?.form_questions?.map((form) => {
-      return {
-        question_type: form?.question?.type,
-        question_content: form?.question?.content,
-        question_id: form?.question_id,
-      };
-    });
-
-    return reportData;
-  }
-
-  async getBarChart(param: ChartDto, id: number): Promise<BarChartResponse> {
-    const multiChoice = await this.viewMultiChoiceRepository.getBySurvey(
-      param,
-      id,
-    );
-
-    const singleChoice = await this.viewSingleChoiceRepository.getBySurvey(
-      param,
-      id,
-    );
-
-    const data = [...multiChoice, ...singleChoice];
-
-    return {
-      categories: data.map((a) => a.answer_id.toString()),
-      data: data.map((a) => a.total.toString()),
-    };
-  }
-
-  async getShortAnswer(
-    param: ChartDto,
-    id: number,
-  ): Promise<ShortAnswerResponse[]> {
-    const data = await this.viewTextRepository.find({
-      where: {
-        question_id: parseInt(param.question_id),
-        form_id: id,
-      },
-      select: ['answer_text'],
-    });
-    return data;
-  }
-
-  async getLineChart(param: ChartDto, id: number): Promise<LineChartResponse> {
-    const percentage = await this.viewPercentageRepository.find({
-      where: {
-        question_id: parseInt(param.question_id),
-        form_id: id,
-      },
-      select: ['answer_value', 'question_content'],
-    });
-    return {
-      categories: percentage.map((a) => a.question_content.toString()),
-      data: percentage.map((a) => a.answer_value.toString()),
-    };
   }
 }
