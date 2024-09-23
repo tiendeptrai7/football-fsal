@@ -20,7 +20,7 @@ import { CacheService } from './services/cache.service';
               port: +configService.get('cache.redisPort'),
               tls: true,
             },
-            username: configService.get('cache.redisUsername'), // Thêm tên người dùng
+            username: configService.get('cache.redisUsername'),
             password: configService.get('cache.redisPassword'),
           }),
           ttl: +configService.get('cache.redisTTL'),
