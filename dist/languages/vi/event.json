@@ -1,9 +1,0 @@
-{
-    "NOT_FOUND": "Không tìm thấy sự kiện",
-    "EXIST": "Sự kiện tồn tại",
-    "EVENT_GUEST_NOT_FOUND": "Không tìm thấy khách tham gia sự kiện",
-    "TICKET_NOT_FOUND": "Không tìm thấy vé",
-    "TICKET_INVALID": "Vé không hợp lệ",
-    "TICKET_INELIGIBLE": "Vé không đủ điều kiện tham gia",
-    "TICKET_ALREADY_CHECKED_IN": "Vé này đã được check-in"
-}

@@ -1,9 +1,0 @@
-{
-    "NOT_FOUND": "Event not found",
-    "EXIST": "Event exist",
-    "EVENT_GUEST_NOT_FOUND": "Event guest not found",
-    "TICKET_NOT_FOUND": "Ticket not found",
-    "TICKET_INVALID": "Invalid ticket",
-    "TICKET_INELIGIBLE": "Ticket not eligible for participation",
-    "TICKET_ALREADY_CHECKED_IN": "This ticket has already been checked in."
-}
