@@ -49,7 +49,7 @@ export class UserRepository extends Repository<User> {
     condition[column] = criteria;
     return this.findOne({
       where: condition,
-      relations: ['profile', 'user_roles', 'user_roles.role', 'hcp', 'med_rep'],
+      relations: ['profile', 'user_roles', 'user_roles.role'],
     });
   }
 
