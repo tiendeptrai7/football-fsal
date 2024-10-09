@@ -13,7 +13,7 @@ import { ConfigService } from '@nestjs/config';
           port: +configService.get('cache.redisPort'),
           username: configService.get('cache.redisUsername'),
           password: configService.get('cache.redisPassword'),
-          db: configService.get('cache.redisQueueDatabase'),
+          db: +configService.get('cache.redisQueueDatabase'),
         },
       }),
     }),

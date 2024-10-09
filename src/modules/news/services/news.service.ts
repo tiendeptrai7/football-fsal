@@ -16,6 +16,7 @@ import { UpdateNewsDto } from '../dtos/update-news.dto';
 import { News } from '../repository/entities/news.entity';
 import { NewsRepository } from '../repository/repositories/news.repository';
 import { NewsViewRepository } from '../repository/repositories/news-view.repository';
+import { FootballStandingsDto } from '../dtos/standing.dto';
 
 @Injectable()
 export class NewsService {
@@ -125,5 +126,16 @@ export class NewsService {
       identifier,
       getLastCode,
     );
+  }
+
+  // 
+  async getStanding(): Promise<FootballStandingsDto> {
+    const data = await fetch('https://api.football-data.org//v4/competitions/PL/standings', {
+      method: 'GET',
+      headers: {
+        'X-Auth-Token': process.env.API_FOOTBALL_TOKEN
+      }
+    })
+    return data.json();
   }
 }

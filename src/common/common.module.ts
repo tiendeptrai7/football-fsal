@@ -25,7 +25,7 @@ import { RequestModule } from './request/request.module';
       cache: true,
       envFilePath: ['.env'],
       expandVariables: true,
-    }), //todo: validate .env
+    }),
     LoggerModule,
     DatabaseModule,
     ErrorModule,
