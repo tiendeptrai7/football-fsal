@@ -15,6 +15,13 @@ export enum EStatus {
   pending = -1,
 }
 
+export enum EPosition {
+  FW,
+  GK,
+  MF,
+  DF,
+}
+
 export enum ESystemType {
   text,
   number,

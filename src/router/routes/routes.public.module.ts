@@ -19,6 +19,8 @@ import { ZaloModule } from '@modules/zalo/zalo.module';
 import { Module } from '@nestjs/common';
 import { TerminusModule } from '@nestjs/terminus';
 import { HealthPublicController } from 'src/health/controllers/health.public.controller';
+import { StandingPublicController } from '@modules/news/controllers/standing.public.controller';
+import { TopScorerPublicController } from '@modules/news/controllers/top-scorer.public.controller';
 
 @Module({
   controllers: [
@@ -32,6 +34,8 @@ import { HealthPublicController } from 'src/health/controllers/health.public.con
     ReminderPublicController,
     SurveyPublicController,
     ZaloHookPublicController,
+    StandingPublicController,
+    TopScorerPublicController,
   ],
   providers: [],
   exports: [],

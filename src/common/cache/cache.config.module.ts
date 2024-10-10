@@ -18,7 +18,6 @@ import { CacheService } from './services/cache.service';
             socket: {
               host: configService.get('cache.redisHost'),
               port: +configService.get('cache.redisPort'),
-              tls: true,
             },
             username: configService.get('cache.redisUsername'),
             password: configService.get('cache.redisPassword'),
@@ -36,7 +35,6 @@ import { CacheService } from './services/cache.service';
             port: +configService.get('cache.redisPort'),
             username: configService.get('cache.redisUsername'),
             password: configService.get('cache.redisPassword'),
-            tls: true,
           },
         } as unknown as RedisModuleOptions;
       },
