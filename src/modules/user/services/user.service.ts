@@ -201,7 +201,7 @@ export class UserService {
       'id',
     );
 
-    this._updateZaloFollowDetails(user);
+    // this._updateZaloFollowDetails(user);
 
     return user;
   }
