@@ -30,7 +30,10 @@ export class FutsalTeamService {
   }
 
   async getById(id: number): Promise<FutsalTeam> {
-    const app = await this.futsalTeamRepository.findOneBy({ id });
+    const app = await this.futsalTeamRepository.findOne({
+      where: { id },
+      relations: ['players', 'team_leader'],
+    });
     if (!app) {
       throw new CustomError(
         404,
