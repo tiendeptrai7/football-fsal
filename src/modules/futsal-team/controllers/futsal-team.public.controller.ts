@@ -19,15 +19,14 @@ import { FutsalTeam } from '../repository/entities/futsal-team.entity';
 import { CreateFutsalTeamDto } from '../dtos/create.dto';
 import { UpdateFutsalTeamDto } from '../dtos/update.dto';
 
-@Controller('futsal-team')
-@ApiTags('futsal-team')
+@Controller('futsal-teams')
+@ApiTags('futsal-teams')
 @ApiBearerAuth('accessToken')
 export class FutsalTeamPublicController {
   constructor(private readonly service: FutsalTeamService) {}
 
   @Get()
   @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: '' })
   async getList(
     @Query() param: FilterFutsalTeamDto,
   ): Promise<ListPaginate<FutsalTeam>> {
@@ -36,7 +35,6 @@ export class FutsalTeamPublicController {
 
   @Get(':id([0-9]+)')
   @HttpCode(HttpStatus.OK)
-  @Auth({ permissions: '' })
   async getById(@Param('id') id: number): Promise<FutsalTeam> {
     return await this.service.getById(id);
   }

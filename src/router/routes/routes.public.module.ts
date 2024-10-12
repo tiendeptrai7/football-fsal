@@ -21,6 +21,8 @@ import { TerminusModule } from '@nestjs/terminus';
 import { HealthPublicController } from 'src/health/controllers/health.public.controller';
 import { StandingPublicController } from '@modules/news/controllers/standing.public.controller';
 import { TopScorerPublicController } from '@modules/news/controllers/top-scorer.public.controller';
+import { FutsalTeamPublicController } from '@modules/futsal-team/controllers/futsal-team.public.controller';
+import { FutsalTeamModule } from '@modules/futsal-team/futsal-team.module';
 
 @Module({
   controllers: [
@@ -36,6 +38,7 @@ import { TopScorerPublicController } from '@modules/news/controllers/top-scorer.
     ZaloHookPublicController,
     StandingPublicController,
     TopScorerPublicController,
+    FutsalTeamPublicController,
   ],
   providers: [],
   exports: [],
@@ -50,6 +53,7 @@ import { TopScorerPublicController } from '@modules/news/controllers/top-scorer.
     SurveyModule,
     EventModule,
     ZaloModule,
+    FutsalTeamModule,
   ],
 })
 export class RoutesPublicModule {}
