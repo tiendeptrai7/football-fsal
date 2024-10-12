@@ -6,6 +6,8 @@ import { Column, Entity, OneToMany, OneToOne } from 'typeorm';
 
 import { Profile } from './profile.entity';
 import { UserRole } from './user-role.entity';
+import { Booking } from '@modules/futsal-field/repository/entities/booking.entity';
+import { Review } from '@modules/futsal-field/repository/entities/review.entity';
 
 @Entity()
 export class User extends BaseUUIDEntity {
@@ -50,4 +52,10 @@ export class User extends BaseUUIDEntity {
   @Column('smallint', { default: 0 })
   @ApiProperty()
   login_failed: number;
+
+  @OneToMany(() => Booking, (booking) => booking.user)
+  bookings: Booking[];
+
+  @OneToMany(() => Review, (review) => review.user)
+  reviews: Review[];
 }
